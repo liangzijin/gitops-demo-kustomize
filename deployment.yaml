@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: gitops-demo
+  name: gitops-demo
+  namespace: dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gitops-demo
+      version: v1
+  template:
+    metadata:      
+      labels:
+        app: gitops-demo
+        version: v1
+    spec:
+      containers:
+      - image: registry.cn-hangzhou.aliyuncs.com/liangzijin/gitops-demo:v1
+        name: gitops
