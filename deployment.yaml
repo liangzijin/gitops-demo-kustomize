@@ -18,5 +18,6 @@ spec:
         version: v1
     spec:
       containers:
-      - image: registry.cn-hangzhou.aliyuncs.com/liangzijin/gitops-demo:v1
-        name: gitops
+      - name: gitops-demo
+        image: registry.cn-hangzhou.aliyuncs.com/liangzijin/gitops-demo
+        imagePullPolicy: Always

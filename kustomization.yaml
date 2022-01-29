@@ -5,5 +5,5 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: liangzijin/gitops-demo
-  newTag: 6bc592ee9651bfbb6195e3decc05eaa49a1afb97
+- name: registry.cn-hangzhou.aliyuncs.com/liangzijin/gitops-demo
+  newTag: 9dccda584b434758966e9a200b2d165d7922ba75

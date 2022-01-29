@@ -7,10 +7,10 @@ metadata:
   namespace: dev
 spec: 
   type: NodePort
-  clusterIP: None
   ports:
   - port: 9000
-    targetPort: 80
+    targetPort: 9000
     nodePort: 31000
   selector:
     app: gitops-demo
+    version: v1
