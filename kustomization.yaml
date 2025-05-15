@@ -6,4 +6,4 @@ resources:
 - service.yaml
 images:
 - name: registry.cn-hangzhou.aliyuncs.com/liangzijin/gitops-demo
-  newTag: 2e99bb354060cc3c9de0d36b925bfaeb151e6e7c
+  newTag: 4dfe867a111cb62710e40205aa9e15f52d7137e8
